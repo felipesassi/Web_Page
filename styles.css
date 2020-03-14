@@ -39,10 +39,11 @@ img {
   }
 
 .jumbotron {
-    height: 35vh;
+    /* height: 35vh; */
+    min-height: 35vh;
     position: fixed;
     margin-top: 3vh;
-    background-size: cover
+    /* background-size: cover */
 }
 
 .navbar {
@@ -135,4 +136,25 @@ img {
   text-decoration: underline;
   font-weight: bold;
   color: #FFF;
+}
+
+.site-footer {
+  background: black;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 100px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  box-sizing: border-box;
+} 
+
+.bl {
+  color: black
+}
+
+.listra {
+  background-color: #6FD8B2
 }
