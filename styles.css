@@ -1,0 +1,138 @@
+.title {
+    margin-top: 2em
+}
+
+.fp {
+    margin-top: 1.25em
+}
+
+.i1 {
+    padding-right: 5vh;
+}
+
+.i2 {
+    padding-right: 5vh;
+    padding-left: 5vh;
+}
+
+.i3 {
+  padding-left: 5vh
+}
+
+.mybtn {
+    border-radius: 0px
+}
+
+img {
+    opacity: 0.5;
+}
+
+.green{
+    display: inline-block;
+
+}
+
+.mt-0 {
+    padding-top: 1em;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+.jumbotron {
+    height: 35vh;
+    position: fixed;
+    margin-top: 3vh;
+    background-size: cover
+}
+
+.navbar {
+    /* background-color: white; */
+    position: fixed;
+}
+
+.c1 {
+    /* background-color: transparent !important */
+    background-color: black
+}
+
+@import url("https://fonts.googleapis.com/css?family=Dax:400,900");
+/* html {
+  background-color: #1a1a1a;
+  overflow: hidden;
+} */
+
+.middle {
+  width: 100%;
+  text-align: center;
+  /* Made by */
+}
+.middle h1 {
+  font-family: "Dax", sans-serif;
+  color: #fff;
+}
+.middle input[type="radio"] {
+  display: none;
+}
+.middle input[type="radio"]:checked + .box {
+  background-color: #6FD8B2;
+}
+.middle input[type="radio"]:checked + .box span {
+  color: black;
+  transform: translateY(70px);
+}
+.middle input[type="radio"]:checked + .box span:before {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.middle .box {
+  width: 250px;
+  height: 250px;
+  background-color: #fff;
+  transition: all 250ms ease;
+  will-change: transition;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  font-family: "Dax", sans-serif;
+  font-weight: 900;
+}
+.middle .box:active {
+  transform: translateY(10px);
+}
+.middle .box span {
+  position: absolute;
+  transform: translate(0, 60px);
+  left: 0;
+  right: 0;
+  transition: all 300ms ease;
+  font-size: 1.5em;
+  user-select: none;
+  color: #6FD8B2;
+}
+.middle .box span:before {
+  font-size: 1.2em;
+  font-family: FontAwesome;
+  display: block;
+  transform: translateY(-80px);
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+  font-weight: normal;
+  color: white;
+}
+.middle .front-end span:before {
+  content: '\f121';
+}
+.middle .back-end span:before {
+  content: '\f0f4';
+}
+.middle p {
+  color: #fff;
+  font-family: "Dax", sans-serif;
+  font-weight: 400;
+}
+.middle p a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #FFF;
+}
