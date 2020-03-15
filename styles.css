@@ -158,3 +158,17 @@ img {
 .listra {
   background-color: #6FD8B2
 }
+
+.fb {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* width: 99%; */
+}
+
+@media only screen and (max-width: 600px) {
+  .fb {
+    position: relative;
+  }
+}
